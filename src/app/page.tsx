@@ -1,3 +1,4 @@
+import AccordiansHomeSec from "@/components/AccordiansHomeSec";
 import CompSec from "@/components/CompSec";
 import FeatureSec from "@/components/FeatureSec";
 import Header from "@/components/Header";
@@ -41,6 +42,9 @@ export default function Home() {
       </div>
       <div>
         <CompSec />
+      </div>
+      <div>
+        <AccordiansHomeSec />
       </div>
     </>
   );
