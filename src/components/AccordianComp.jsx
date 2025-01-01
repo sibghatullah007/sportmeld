@@ -12,12 +12,12 @@ const Accordion = ({ question, answer }) => {
           : "bg-gray-800"
       }`}
     >
-      <div className="bg-black rounded-lg overflow-hidden p-3 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+      <div className="bg-zinc-950 rounded-lg overflow-hidden p-3 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
         <div
           className="flex justify-between items-center p-3"
         >
           <h3 className={`text-[18px] md:[text-20px] lg:text-[22px] font-bold ${isOpen?'text-white':'text-gray-400'}`}>{question}</h3>
-          <button className="text-xl font-bold transform transition-transform duration-300">
+          <button className="text-[24px] text-gray-600 font-medium transform transition-transform duration-300">
             {isOpen ? "-" : "+"}
           </button>
         </div>
